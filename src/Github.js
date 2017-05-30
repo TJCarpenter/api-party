@@ -33,8 +33,8 @@ class Github extends Component {
                         <button type="submit">Look Up Github User</button>
                     </div>
                 </form>
-
                 <Route exact path="/github" render={() => <h3>Please enter username to search on Github </h3>} />
+                <Route path ="/github/:username"/>
             </div>
         )
     }
